@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{0D144F5D-8C8E-40F6-A3D4-1C05A3B8A5B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "organicProduct.WebUI", "Frontend\organicProduct.WebUI\organicProduct.WebUI.csproj", "{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B7CF51D-2F19-455D-9E0A-9CDB0613CE1A} = {0D144F5D-8C8E-40F6-A3D4-1C05A3B8A5B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1747A4-42C8-4C15-911E-F4C69BB058DC}
+	EndGlobalSection
+EndGlobal

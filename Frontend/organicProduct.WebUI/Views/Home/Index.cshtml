@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    var cart = []; // Sepetimizi temsil eden bir dizi
+    var product = { name: "Organik Üzüm", price: 10 }; // Ürün objesi
+
+    function addToCart() {
+        cart.push(product); // Ürünü sepete ekle
+        updateCartCount(); // Sepet sayısını güncelle
+        // alert("Ürün sepete eklendi!");
+        console.log(cart); // Sepet içeriğini konsola yazdır
+    }
+
+    function updateCartCount() {
+        var cartCountElement = document.getElementById("cart-count");
+        cartCountElement.textContent = cart.length;
+    }
+    </script>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\organicProduct.WebUI.props" />
+</Project>
